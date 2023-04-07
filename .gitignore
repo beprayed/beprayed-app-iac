@@ -1,0 +1,14 @@
+# Terraform state and plan files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# Terraform .terraform directory
+.terraform/
+
+# Ignore any sensitive variable files
+*.tfvars.secret
+*.auto.tfvars.secret
+
+# Ignore any log files
+*.log
